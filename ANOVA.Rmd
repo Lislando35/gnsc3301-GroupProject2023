@@ -29,6 +29,7 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+#running the data2 from our capstone in a one-anova to look at significance and plot in R
 ```{r}
 one.way <- aov(Colony ~ Disinfectant, data=data2)
 plot(data2)
@@ -36,11 +37,8 @@ summary.aov(one.way)
 TukeyHSD(one.way)
 ```
 
+#running the data2 from our capstone in a one-anova to look at significance and plot in python
+```{python}
 
-
-
-
-
-
-
+```
 
