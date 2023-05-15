@@ -2,6 +2,9 @@
 This repository is for my group computing project. It will be used to keep track of who aids is which parts of the project and to also keep all of the information in one place. 
 We have successfully shared the repository in GitHub and are both able to access it. We will both add information collected from our Capstone project to keep everything organized. 
 
+Purpose:
+  We chose to perform a one-anova test in RStudio and Python to use the skills gained in our Computing II course and to provide supporting evidence for our Capstone project dealing with multiple different Disinfectants and bacteria Colonies. This illustrated that Isopropyl Alochol (IA) was much more ineffective than other Disinfectants such as Lysol, Bleach, Clorox, Mrs. Meyers, and Method.
+
 Plan/Goals:
   Preslea will be working in RStudio and Alissa will be working in Python. All communication will be through RStudio/GitHub. We will be using these sources in cohesion with our Capstone Project. We will be programming a one-ANOVA or two-ANOVA depending on our analysis, to analyze data from our Capstone experiments. We will divide the project into RStudio (Preslea) and Python (Alissa), so programming will be split evenly. The data we have collected so far includes colony counts on agar plates, types of bacteria identification, and soon will include the effects of disinfectants on the types of bacteria. Our goal is to create cohesive sources for our data.
 
