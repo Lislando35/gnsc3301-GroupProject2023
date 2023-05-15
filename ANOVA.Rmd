@@ -8,7 +8,11 @@ output: html_document
 #running the data2 from our capstone in a one-anova to look at significance and plot in R
 ```{r}
 one.way <- aov(Colony ~ Disinfectant, data=data2)
+# I (Preslea) defined the data in the correct order for the one-anova comparing the Colony to the Disinfectant where the colony is variable.
 plot(data2)
+# I plotted a graph of the data to get a visual and to compare to the anova and tukey tests.
 summary.aov(one.way)
+# The summary of the one-anova was done to acutally show the anova data. This exhibited that there was significant differences. 
 TukeyHSD(one.way)
+# The tukey test was done to show where the differences indicated in the anova were. This indicated the differences were between Isopropyl Alcohol (IA) and every other disinfectant. 
 ```
